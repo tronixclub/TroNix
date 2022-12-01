@@ -842,8 +842,8 @@ p {
 @media (max-width: 1200px) {
     .text_position {
         position: relative;
-        top: 40%;
-        right: 4%;
+        top: 44%;
+        left: 4%;
         font-size: 3rem;
     }
 }
