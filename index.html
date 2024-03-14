@@ -328,12 +328,18 @@
     .card-img-top {
         height: 200px; /* Adjust as needed */
         object-fit: cover; /* Ensure images maintain aspect ratio */
+
     }
 
     .card-body {
         height: 200px; /* Adjust as needed */
         overflow: auto; /* Add scroll bar if text overflows */
        padding: 30px;
+             scrollbar-width: none; /* Hide scrollbar in Firefox */
+        -ms-overflow-style: none;
+    }
+    .card-body::-webkit-scrollbar {
+        display: none; /* Hide scrollbar in WebKit browsers (like Chrome and Safari) */
     }
 </style>
 
